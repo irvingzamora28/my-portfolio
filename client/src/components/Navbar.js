@@ -4,9 +4,6 @@ import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 import portfolioIcon from '../assets/images/portfolio.svg'
 
 
-// const navigation = ['Home', 'Projects', 'Blog']
-const profile = ['Your Profile', 'Settings', 'Sign out']
-
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
@@ -14,10 +11,9 @@ function classNames(...classes) {
 const open = true
 
 const navigation = [
-	{ name: 'Product', href: '#' },
-	{ name: 'Features', href: '#' },
-	{ name: 'Marketplace', href: '#' },
-	{ name: 'Company', href: '#' },
+	{ name: 'About me', href: '#' },
+	{ name: 'Projects', href: '#' },
+	{ name: 'Blog', href: '#' },
 ]
 
 const Navbar = () => {
